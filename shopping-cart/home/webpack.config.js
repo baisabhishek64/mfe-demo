@@ -48,7 +48,7 @@ module.exports = {
         search: 'search@http://localhost:8000/remoteEntry.js',
         product: 'product@http://localhost:9000/remoteEntry.js',
         cart: 'cart@http://localhost:4000/remoteEntry.js',
-        // testSolidJs: 'testSolidJs@http://localhost:3003/remoteEntry.js'
+        testSolidJs: 'testSolidJs@http://localhost:3003/remoteEntry.js'
       },
       exposes: {},
       shared: {
