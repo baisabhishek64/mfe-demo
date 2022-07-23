@@ -11,6 +11,6 @@
 7) yarn install \
 8) npm run watch \
 
-# You are all set for demo run localhost:7000 you will see home app running where we are rednering all other apps, You can also see that other apps 
+### You are all set for demo run localhost:7000 you will see home app running where we are rednering all other apps, You can also see that other apps 
 are also rednering each other like : Product app is consuming Cart app to render AddToCart component
 
