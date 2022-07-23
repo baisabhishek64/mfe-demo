@@ -1,7 +1,7 @@
 import React, {Suspense, useRef, useEffect} from "react";
 import ReactDOM from "react-dom";
 import SafeComponent from './SafeComponent';
-import placeAddToCart from "testSolidJs/placeAddToCart";
+// import placeAddToCart from "testSolidJs/placeAddToCart";
 import "./index.css";
 
 import Products from './Products';
@@ -9,9 +9,6 @@ import Products from './Products';
 import { useLogin } from './state.js';
 
 import Cart from 'cart/Cart';
-
-// from solid js
-// import TestApp from 'hello/App';
 
 const Login = React.lazy(() => import('auth/Login'));
 
@@ -21,11 +18,11 @@ const App = () => {
 
   const cart = useRef(null);
 
-  useEffect(() => {
-    if (cart.current) {
-      placeAddToCart(cart.current);
-    }
-  }, [product]);
+  // useEffect(() => {
+  //   if (cart.current) {
+  //     placeAddToCart(cart.current);
+  //   }
+  // }, [cart.current]);
 
   return (
     <div>
@@ -46,7 +43,7 @@ const App = () => {
           <Cart loggedIn={loggedIn} />
         </div>
      </div>
-     <div ref={cart}></div>
+     {/* <div ref={cart}></div> */}
     </div>
   );
 }
