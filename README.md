@@ -2,7 +2,7 @@
 
 ## SetUp steps
 
-cd shopping-cart **Enter**
+  **Enter** cd shopping-cart **Enter**
 We have multiple apps here like home, auth (except server)
 Move inside each app and run yarn install
 We have to run each app to etablish communication
